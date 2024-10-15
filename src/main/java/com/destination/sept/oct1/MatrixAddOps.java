@@ -23,6 +23,16 @@ class addition {
 			
 		}
 		
+		System.out.println("display the first matrix");
+		for(int i=0;i<2;i++) {
+			for(int j=0;j<2;j++) {
+				System.out.print("  "+m1[i][j]);
+				
+			}
+			System.out.println();
+		}
+	
+		
 		System.out.println("Collecting array data for m2 :");
 		for(int i=0;i<2;i++) {
 			for(int j=0;j<2;j++) {
@@ -45,6 +55,7 @@ class addition {
 	}
 	
 	void disply() {
+		
 		System.out.println("Sum of m1 and m2 matrices");
 		for(int i=0;i<2;i++) {
 			for(int j=0;j<2;j++) {
